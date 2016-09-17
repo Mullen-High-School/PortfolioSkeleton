@@ -1,11 +1,7 @@
-
-.box
+h1
     {
     padding: 30px;
     border: 1px solid grey;
     background-color: #d3d3d3;
-    }
-.btn
-    {
-    margin: 20px;
+    text-align: center;
     }
