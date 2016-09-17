@@ -1,3 +1,7 @@
+$.get("navigation.htm", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+
 function myFunction() 
     {
     document.getElementById("redPlanet").innerHTML = "Green Planet";
