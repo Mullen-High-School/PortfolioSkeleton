@@ -1,6 +1,5 @@
-$.get("navigation.htm", function(data){
+$.get("../navigation.htm", function(data){
     $(".nav-placeholder").replaceWith(data);
-    alert("Test");
 });
 
 function myFunction() 
